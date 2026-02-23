@@ -1,0 +1,33 @@
+# ===============================
+# Terraform
+# ===============================
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory
+.terraform/
+
+# Terraform dependency lock file (ignore for labs)
+.terraform.lock.hcl
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Allow example variable files
+!terraform.tfvars.example
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform CLI override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
